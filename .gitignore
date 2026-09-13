@@ -1,0 +1,24 @@
+# Vivado generated files and caches
+.Xil/
+*.jou
+*.log.backup
+*.backup.log
+*.wdb
+*.wcfg
+*.str
+*.pb
+xsim.dir/
+*.runs/
+*.cache/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+.ip_user_files/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~$*

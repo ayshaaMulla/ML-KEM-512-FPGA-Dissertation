@@ -1,0 +1,16 @@
+﻿
+Name               Length LastWriteTime      
+----               ------ -------------      
+butterfly_Client.v   5909 05/08/2026 13:42:21
+butterfly_Server.v   6722 12/08/2026 16:05:35
+hash_core_Client.v   6438 13/08/2026 13:05:44
+hash_core_Server.v   6452 22/08/2026 16:44:12
+Kyber_Client.v      16659 13/08/2026 13:06:37
+Kyber_Server.v      21940 22/08/2026 16:50:32
+LUT.v                 750 05/08/2026 13:42:21
+NTT_core_Client.v   18090 05/08/2026 13:42:21
+NTT_core_Server.v   25203 12/08/2026 16:13:43
+pattern.v            1692 12/08/2026 16:13:43
+reduc.v              1349 05/08/2026 13:42:21
+
+

@@ -1,0 +1,46 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Sep  2 21:26:52 2026
+| Host         : Aysha running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber_CLIENT-DFIFO6-BRAM/client_dfifo6_bram_timing_variants/v5_wlblock/v5_wlblock_util_hier.rpt
+| Design       : Kyber_Client
+| Device       : xc7a12tcpg238-1
+| Speed File   : -1
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------+------------------+------------+------------+---------+------+------+--------+--------+------------+
+|       Instance      |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------------+------------------+------------+------------+---------+------+------+--------+--------+------------+
+| Kyber_Client        |            (top) |       5458 |       5300 |       0 |  158 | 3765 |      1 |     11 |          2 |
+|   (Kyber_Client)    |            (top) |        141 |         51 |       0 |   90 |  578 |      0 |      0 |          0 |
+|   decode            |    decode_Client |         60 |         60 |       0 |    0 |   86 |      0 |      0 |          0 |
+|   encode            |    encode_Client |        144 |        144 |       0 |    0 |   59 |      0 |      0 |          0 |
+|   hash              | hash_core_Client |       3544 |       3544 |       0 |    0 | 1866 |      0 |      4 |          0 |
+|     (hash)          | hash_core_Client |        300 |        300 |       0 |    0 |   44 |      0 |      0 |          0 |
+|     decode          |    decode_keccak |         94 |         94 |       0 |    0 |   88 |      0 |      0 |          0 |
+|     hash            |       Keccak1600 |       3049 |       3049 |       0 |    0 | 1610 |      0 |      0 |          0 |
+|       FSM           |     StateMachine |        140 |        140 |       0 |    0 |   10 |      0 |      0 |          0 |
+|       RoundFunction |            Round |       2909 |       2909 |       0 |    0 | 1600 |      0 |      0 |          0 |
+|         Reg         |     RegisterFDRE |       1740 |       1740 |       0 |    0 | 1600 |      0 |      0 |          0 |
+|         T           |            theta |       1169 |       1169 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   ntt               |  NTT_core_Client |       1470 |       1402 |       0 |   68 | 1064 |      1 |      4 |          2 |
+|     (ntt)           |  NTT_core_Client |        692 |        692 |       0 |    0 |  418 |      0 |      0 |          0 |
+|     BU              |    butterfly_Cli |        680 |        642 |       0 |   38 |  501 |      0 |      0 |          2 |
+|       (BU)          |    butterfly_Cli |        419 |        419 |       0 |    0 |  245 |      0 |      0 |          0 |
+|       R0            |            reduc |        120 |        113 |       0 |    7 |   96 |      0 |      0 |          0 |
+|       R1            |          reduc_0 |        119 |        112 |       0 |    7 |   96 |      0 |      0 |          0 |
++---------------------+------------------+------------+------------+---------+------+------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

@@ -1,0 +1,908 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Aug 22 16:52:30 2026
+# Process ID         : 47396
+# Current directory  : C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber
+# Command line       : vivado.exe -mode batch -source C:\Users\aysha\Desktop\project\CRYSTALS-Kyber\Crystals-kyber\run_final_kat_attempt.tcl -nojournal -log C:\Users\aysha\Desktop\project\CRYSTALS-Kyber\Crystals-kyber\run_final_kat_attempt.log
+# Log file           : C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/run_final_kat_attempt.log
+# Journal file       : 
+# Running On         : Aysha
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 225H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 14
+# Host memory        : 16574 MB
+# Swap memory        : 22548 MB
+# Total Virtual      : 39123 MB
+# Available Virtual  : 3264 MB
+#-----------------------------------------------------------
+source {C:\Users\aysha\Desktop\project\CRYSTALS-Kyber\Crystals-kyber\run_final_kat_attempt.tcl}
+# open_project {C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24c\1.1\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k24i\1.0\board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.2\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.3\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26c\1.4\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.2\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.3\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\k26i\1.4\board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kd240_som\1.0\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kd240_som\1.1\board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kr260_som\1.0\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kr260_som\1.1\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kv260_som\1.2\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kv260_som\1.3\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kv260_som\1.4\board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.0\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.1\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_mpsoc\1.0\board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc702\1.4\board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.4\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.5 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zc706\1.5\board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.3\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu102\3.4\board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu104\1.1\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.4\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.5\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.6\board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/aysha/OneDrive/Desktop/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/aysha/OneDrive/Desktop/2025.2/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 570.680 ; gain = 265.645
+# set_property top Kyber512_check_tb [get_filesets sim_1]
+# set_property top_lib xil_defaultlib [get_filesets sim_1]
+# launch_simulation -simset sim_1 -mode behavioral
+Command: launch_simulation  -simset sim_1 -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Sat Aug 22 16:53:14 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'Kyber512_check_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Users/aysha/OneDrive/Desktop/2025.2/Vivado/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Users/aysha/OneDrive/Desktop/2025.2/Vivado/data/xsim/xsim.ini' copied to run dir:'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Kyber512_check_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/dist_mem_gen_6.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/invphi_rev.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/dist_mem_gen_7.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/pwphi_rev.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/dist_mem_gen_5.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/phi_rev.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/phi.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/invphi.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/pwphi.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Kyber512_check_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_6_1/sim/fifo_generator_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/dist_mem_gen_5/sim/dist_mem_gen_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/dist_mem_gen_6/sim/dist_mem_gen_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/dist_mem_gen_7/sim/dist_mem_gen_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_5/sim/fifo_generator_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_7/sim/fifo_generator_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_8/sim/fifo_generator_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_3/fifo_generator_3_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_3
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_blk_mem_gen_v8_4_12
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_blk_mem_gen_v8_4_12_synth
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_compare
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_compare_0
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_compare_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_compare_2
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_fifo_generator_ramfifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_fifo_generator_top
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_fifo_generator_v13_2_14
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_fifo_generator_v13_2_14_synth
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_memory
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_rd_bin_cntr
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_rd_logic
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_rd_status_flags_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_reset_blk_ramfifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_wr_bin_cntr
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_wr_logic
+INFO: [VRFC 10-311] analyzing module fifo_generator_3_wr_status_flags_ss
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_4/fifo_generator_4_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_4
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_blk_mem_gen_v8_4_12
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_blk_mem_gen_v8_4_12_synth
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_compare
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_compare_0
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_compare_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_compare_2
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_compare_3
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_fifo_generator_ramfifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_fifo_generator_top
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_fifo_generator_v13_2_14
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_fifo_generator_v13_2_14_synth
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_memory
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_rd_bin_cntr
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_rd_logic
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_rd_status_flags_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_reset_blk_ramfifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_wr_bin_cntr
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_wr_logic
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_wr_pf_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_4_wr_status_flags_ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_Cli
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NTT_core_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hash_core_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encode_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NTT_core_Server
+WARNING: [VRFC 10-8497] literal value 'h38 truncated to fit in 5 bits [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:455]
+WARNING: [VRFC 10-8497] literal value 'h39 truncated to fit in 5 bits [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:459]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_Ser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/decode_keccak.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_keccak
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encode_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hash_core_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/mux4to2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4to2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pattern
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reduc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sim_1/imports/new/Kyber_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sim_1/imports/new/Kyber512_check_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber512_check_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sim_1/imports/new/mult512_check_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult512_check_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sim_1/imports/new/reduc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reduc_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim/glbl.v:6]
+"xvhdl --incr --relax -prj Kyber512_check_tb_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 597.523 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '17' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_14 -L blk_mem_gen_v8_4_12 -L xbip_utils_v3_0_15 -L c_reg_fd_v12_0_11 -L c_shift_ram_v12_0_20 -L dist_mem_gen_v8_0_17 -L mult_gen_v12_0_24 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Kyber512_check_tb_behav xil_defaultlib.Kyber512_check_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Users/aysha/OneDrive/Desktop/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_14 -L blk_mem_gen_v8_4_12 -L xbip_utils_v3_0_15 -L c_reg_fd_v12_0_11 -L c_shift_ram_v12_0_20 -L dist_mem_gen_v8_0_17 -L mult_gen_v12_0_24 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Kyber512_check_tb_behav xil_defaultlib.Kyber512_check_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'd' [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:662]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'd' [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:497]
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'd' [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:499]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 34 for port 'din' [C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:521]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_15.xbip_utils_v3_0_15_pkg
+Compiling package mult_gen_v12_0_24.mult_gen_v12_0_24_viv_comp
+Compiling package mult_gen_v12_0_24.mult_gen_v12_0_24_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_24.dsp_pkg
+Compiling package c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv_comp
+Compiling package c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_pkg
+Compiling package c_reg_fd_v12_0_11.c_reg_fd_v12_0_11_viv_comp
+Compiling architecture xilinx of entity mult_gen_v12_0_24.delay_line [\delay_line(c_xdevicefamily="art...]
+Compiling architecture xilinx of entity mult_gen_v12_0_24.op_resize [\op_resize(ai_width=12,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_24.dsp [\dsp(c_xdevicefamily="artix7",c_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_24.mult_gen_v12_0_24_viv [\mult_gen_v12_0_24_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_24.mult_gen_v12_0_24 [\mult_gen_v12_0_24(c_xdevicefami...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling module xil_defaultlib.reduc
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_0_arch of entity xil_defaultlib.c_shift_ram_0 [c_shift_ram_0_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_1_arch of entity xil_defaultlib.c_shift_ram_1 [c_shift_ram_1_default]
+Compiling architecture c_shift_ram_9_arch of entity xil_defaultlib.c_shift_ram_9 [c_shift_ram_9_default]
+Compiling module xil_defaultlib.butterfly_Ser
+Compiling module dist_mem_gen_v8_0_17.dist_mem_gen_v8_0_17(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_5
+Compiling module dist_mem_gen_v8_0_17.dist_mem_gen_v8_0_17(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_6
+Compiling module dist_mem_gen_v8_0_17.dist_mem_gen_v8_0_17(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_7
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_output_stage...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_softecc_outp...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_mem_module(C...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12(C_FAMILY="ar...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_output_stage...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_softecc_outp...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_mem_module(C...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12(C_FAMILY="ar...
+Compiling module xil_defaultlib.blk_mem_gen_2
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_output_stage...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_softecc_outp...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12_mem_module(C...
+Compiling module blk_mem_gen_v8_4_12.blk_mem_gen_v8_4_12(C_FAMILY="ar...
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling module xil_defaultlib.mux4to2
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_2_arch of entity xil_defaultlib.c_shift_ram_2 [c_shift_ram_2_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_3_arch of entity xil_defaultlib.c_shift_ram_3 [c_shift_ram_3_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_4_arch of entity xil_defaultlib.c_shift_ram_4 [c_shift_ram_4_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_5_arch of entity xil_defaultlib.c_shift_ram_5 [c_shift_ram_5_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_6_arch of entity xil_defaultlib.c_shift_ram_6 [c_shift_ram_6_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_8_arch of entity xil_defaultlib.c_shift_ram_8 [c_shift_ram_8_default]
+Compiling architecture struct of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_legacy [\c_shift_ram_v12_0_20_legacy(c_x...]
+Compiling architecture synth of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20_viv [\c_shift_ram_v12_0_20_viv(c_xdev...]
+Compiling architecture xilinx of entity c_shift_ram_v12_0_20.c_shift_ram_v12_0_20 [\c_shift_ram_v12_0_20(c_xdevicef...]
+Compiling architecture c_shift_ram_11_arch of entity xil_defaultlib.c_shift_ram_11 [c_shift_ram_11_default]
+Compiling module xil_defaultlib.NTT_core_Server
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=1600)\]
+Compiling architecture dataflow of entity xil_defaultlib.theta [theta_default]
+Compiling architecture dataflow of entity xil_defaultlib.rho [rho_default]
+Compiling architecture dataflow of entity xil_defaultlib.pi [pi_default]
+Compiling architecture dataflow of entity xil_defaultlib.chi [chi_default]
+Compiling architecture dataflow of entity xil_defaultlib.iota [iota_default]
+Compiling architecture structural of entity xil_defaultlib.Round [round_default]
+Compiling architecture fsm of entity xil_defaultlib.StateMachine [statemachine_default]
+Compiling architecture structural of entity xil_defaultlib.Keccak1600 [keccak1600_default]
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_1
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_7
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_8
+Compiling module xil_defaultlib.decode_keccak
+Compiling module xil_defaultlib.hash_core_Server
+Compiling module xil_defaultlib.decode_Server
+Compiling module xil_defaultlib.encode_Server
+Compiling module xil_defaultlib.pattern
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_2
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(RAM_MODE="SDP...
+Compiling module unisims_ver.RAMB18E1(RAM_MODE="SDP",READ_WID...
+Compiling module xil_defaultlib.fifo_generator_3
+Compiling module xil_defaultlib.fifo_generator_4
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_5
+Compiling module xil_defaultlib.Kyber_Server
+Compiling module xil_defaultlib.butterfly_Cli
+Compiling module xil_defaultlib.NTT_core_Client
+Compiling module xil_defaultlib.hash_core_Client
+Compiling module xil_defaultlib.decode_Client
+Compiling module xil_defaultlib.encode_Client
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_bhv_ver_...
+Compiling module fifo_generator_v13_2_14.fifo_generator_v13_2_14_CONV_VER...
+Compiling module fifo_generator_v13_2_14.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_6
+Compiling module xil_defaultlib.Kyber_Client
+Compiling module xil_defaultlib.Kyber512_check_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Kyber512_check_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:01:27 . Memory (MB): peak = 597.523 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '87' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aysha/Desktop/project/CRYSTALS-Kyber/Crystals-kyber/Crystals-kyber.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Kyber512_check_tb_behav -key {Behavioral:sim_1:Functional:Kyber512_check_tb} -tclbatch {Kyber512_check_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Kyber512_check_tb.tcl
+## set curr_wave [current_wave_config]
+## if { [string length $curr_wave] == 0 } {
+##   if { [llength [get_objects]] > 0} {
+##     add_wave /
+##     set_property needs_save false [current_wave_config]
+##   } else {
+##      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+##   }
+## }
+## run 200us
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module Kyber512_check_tb.S.ntt.RAM0.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.S.ntt.RAM1.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.S.ntt.RAM2.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.S.ntt.RAM3.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.S.ntt.RAM4.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module Kyber512_check_tb.C.ntt.RAM0.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.C.ntt.RAM1.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.C.ntt.RAM2.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.C.ntt.RAM3.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber512_check_tb.C.ntt.RAM4.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+SERVER 34025000: 0ece5a11
+SERVER 34035000: bb7c6764
+SERVER 34045000: 3cc9cf7d
+SERVER 34055000: 05a3d316
+SERVER 34065000: a41576f6
+SERVER 34075000: aa11d788
+SERVER 34085000: 568c6956
+SERVER 34095000: c97aab63
+SERVER 34105000: 47d566ce
+SERVER 34115000: 985f59c0
+SERVER 34125000: 50463fa4
+SERVER 34135000: 368ce0bb
+SERVER 34145000: 8967974d
+SERVER 34155000: f6347d11
+SERVER 34165000: 06ac51ae
+SERVER 34175000: 6c5cb53c
+SERVER 34185000: 225825a3
+SERVER 34195000: 07f8fe7d
+SERVER 34205000: de309cd1
+SERVER 34215000: 09244441
+SERVER 34225000: 36a26a7f
+SERVER 34235000: 4a3b05a1
+SERVER 34245000: e36ba707
+SERVER 34255000: b6c6a572
+SERVER 34265000: eb912700
+SERVER 34275000: f5daafe0
+SERVER 34285000: 37a21c4e
+SERVER 34295000: a65b54ff
+SERVER 34305000: 45e74383
+SERVER 34315000: 63d14ac0
+SERVER 34325000: 0359bc9d
+SERVER 34335000: 56b9b646
+SERVER 34345000: bfdb569b
+SERVER 34355000: 915131e5
+SERVER 34365000: c8e56630
+SERVER 34375000: 94dc2755
+SERVER 34385000: 130a1168
+SERVER 34395000: 9714416a
+SERVER 34405000: b8dc27c2
+SERVER 34415000: 7055b2c9
+SERVER 34425000: 2ae4a0b7
+SERVER 34435000: 9f70a6ad
+SERVER 34445000: 5d8f2023
+SERVER 34455000: b7ba6e49
+SERVER 34465000: 83643f84
+SERVER 34475000: 730c0cbf
+SERVER 34485000: ec9602a4
+SERVER 34495000: 0040642c
+SERVER 34505000: 9cc99413
+SERVER 34515000: c7d573a1
+SERVER 34525000: 15f4b775
+SERVER 34535000: 265a2ad0
+SERVER 34545000: 910774a0
+SERVER 34555000: 11c48785
+SERVER 34565000: 17b7f269
+SERVER 34575000: c2ac5587
+SERVER 34585000: 9cb1c87f
+SERVER 34595000: cd3f4b4c
+SERVER 34605000: 2c3f0541
+SERVER 34615000: 0aa1c874
+SERVER 34625000: 1b242183
+SERVER 34635000: 28430228
+SERVER 34645000: 8b80ae75
+SERVER 34655000: 5c36f19e
+SERVER 34665000: 90528a7b
+SERVER 34675000: ba17132f
+SERVER 34685000: 9f26b02f
+SERVER 34695000: 72069347
+SERVER 34705000: 26477b10
+SERVER 34715000: 4745f6fe
+SERVER 34725000: 20334d39
+SERVER 34735000: b320f1c8
+SERVER 34745000: 5b72f4c2
+SERVER 34755000: b8fa0503
+SERVER 34765000: 1f98c78c
+SERVER 34775000: 6aa709cb
+SERVER 34785000: 177fbf1c
+SERVER 34795000: 0abb439f
+SERVER 34805000: 90058b4c
+SERVER 34815000: 691e7f85
+SERVER 34825000: c7668470
+SERVER 34835000: 917360f8
+SERVER 34845000: 6852bce7
+SERVER 34855000: a1d7d3bf
+SERVER 34865000: ecb4fcdf
+SERVER 34875000: b5c9a1a2
+SERVER 34885000: 13305997
+SERVER 34895000: 0242fcd5
+SERVER 34905000: e5742bec
+SERVER 34915000: bc6bb77a
+SERVER 34925000: ba2b63f3
+SERVER 34935000: 41dc7cf9
+SERVER 34945000: 39166f8a
+SERVER 34955000: 9bca3828
+SERVER 34965000: 02df5df4
+SERVER 34975000: 56b77737
+SERVER 34985000: 05c13318
+SERVER 34995000: f3940f19
+SERVER 35005000: 539bc502
+SERVER 35015000: c8bb0019
+SERVER 35025000: aa1f3616
+SERVER 35035000: ca80335b
+SERVER 35045000: 0431893a
+SERVER 35055000: b18873ca
+SERVER 35065000: 3e1b6785
+SERVER 35075000: 0e79e35f
+SERVER 35085000: c46e629a
+SERVER 35095000: 330b9b6d
+SERVER 35105000: af19a4c7
+SERVER 35115000: 85b6327b
+SERVER 35125000: 75f59498
+SERVER 35135000: 45c52ad8
+SERVER 35145000: a790546b
+SERVER 35155000: 10e68faf
+SERVER 35165000: 89053646
+SERVER 35175000: 4472baec
+SERVER 35185000: 23416f23
+SERVER 35195000: 74616b11
+SERVER 35205000: 499217aa
+SERVER 35215000: b39591a4
+SERVER 35225000: c62fc756
+SERVER 35235000: 51021f64
+SERVER 35245000: 98aa2e81
+SERVER 35255000: 66040b57
+SERVER 35265000: 080e0799
+SERVER 35275000: 1327dc19
+SERVER 35285000: 7d1369f4
+SERVER 35295000: 7b3d6afc
+SERVER 35305000: 9998b292
+SERVER 35315000: 3680e75e
+SERVER 35325000: 36ac5391
+SERVER 35335000: 24d7066b
+SERVER 35345000: 1b9ed09c
+SERVER 35355000: 04fb7833
+SERVER 35365000: b8ec9c39
+SERVER 35375000: d6810565
+SERVER 35385000: e69ac737
+SERVER 35395000: af2c6f7d
+SERVER 35405000: 59cfba6a
+SERVER 35415000: 79a75981
+SERVER 35425000: 71c9b32c
+SERVER 35435000: 239d49d1
+SERVER 35445000: f620ad73
+SERVER 35455000: 59bb033f
+SERVER 35465000: 847313ed
+SERVER 35475000: 15a761ac
+SERVER 35485000: cab84351
+SERVER 35495000: 2e613249
+SERVER 35505000: cae415c9
+SERVER 35515000: ce9b6a34
+SERVER 35525000: 1704d65d
+SERVER 35535000: 9ba8b2c6
+SERVER 35545000: 6435c41c
+SERVER 35555000: dc5b873f
+SERVER 35565000: 345b7e5a
+SERVER 35575000: 9e91cf81
+SERVER 35585000: fe7291a0
+SERVER 35595000: fcd446bc
+SERVER 35605000: 95cbb03f
+SERVER 35615000: e24e7091
+SERVER 35625000: 4418b6db
+SERVER 35635000: 4a31f3b2
+SERVER 35645000: 6d6cbb06
+SERVER 35655000: 485e0034
+SERVER 35665000: bd67e65c
+SERVER 35675000: 5898d0c7
+SERVER 35685000: d9d22869
+SERVER 35695000: 04f04013
+SERVER 35705000: 1340ea19
+SERVER 35715000: a040a251
+SERVER 35725000: 8b0541b0
+SERVER 35735000: fdc2b0ef
+SERVER 35745000: 7a5b6432
+SERVER 35755000: cbf5f82d
+SERVER 35765000: 273387fd
+SERVER 35775000: b3d778c9
+SERVER 35785000: 8880a251
+SERVER 35795000: 02378843
+SERVER 35805000: c2b9524c
+SERVER 35815000: 3671cd95
+SERVER 35825000: 6c5dfb46
+SERVER 35835000: 70b4cf0c
+SERVER 35845000: b2c24a73
+SERVER 35855000: c22381bc
+SERVER 35865000: 93f63dc1
+SERVER 35875000: 5a45928e
+SERVER 35885000: fe392686
+SERVER 35895000: 854ba6b8
+SERVER 35905000: 70323e16
+SERVER 35915000: 387b037e
+SERVER 35925000: 2239acd8
+SERVER 35935000: bb8751b4
+SERVER 35945000: 46fdea65
+SERVER 35955000: 0c4ac65f
+SERVER 35965000: 903f8f5f
+SERVER 35975000: 15944803
+SERVER 35985000: a5599d89
+SERVER 35995000: 8c20d843
+SERVER 36005000: 6516a354
+SERVER 36015000: 2239b529
+CLIENT 84855000: 4541f2ed
+CLIENT 84865000: 6d4f3be4
+CLIENT 84875000: 3283bfc6
+CLIENT 84885000: ca024ef5
+CLIENT 84895000: 3bbf2db0
+CLIENT 84905000: c9dd0556
+CLIENT 84915000: 86c8150a
+CLIENT 84925000: 89d43ead
+CLIENT 84935000: e4992646
+CLIENT 84945000: 3544edab
+CLIENT 84955000: 7e75c30b
+CLIENT 84965000: fbfb9626
+CLIENT 84975000: 2e413425
+CLIENT 84985000: f101d28d
+CLIENT 84995000: 390a54e4
+CLIENT 85005000: fe55b070
+CLIENT 85015000: 3aec0b3b
+CLIENT 85025000: 15e1f971
+CLIENT 85035000: 91f3f9b3
+CLIENT 85045000: 1c5b0602
+CLIENT 85055000: dc1483ca
+CLIENT 85065000: c0e395c7
+CLIENT 85075000: ee98fae8
+CLIENT 85085000: 2866ca83
+CLIENT 85095000: a4287045
+CLIENT 85105000: 9e839ed0
+CLIENT 85115000: cf624855
+CLIENT 85125000: 6cf57b0b
+CLIENT 85135000: 9e820a5c
+CLIENT 85145000: 79945786
+CLIENT 85155000: 229cfe45
+CLIENT 85165000: ebba4f56
+CLIENT 85175000: 35afb3c1
+CLIENT 85185000: 5055790d
+CLIENT 85195000: a8d8268a
+CLIENT 85205000: 8b7b54eb
+CLIENT 85215000: 3cf02c1a
+CLIENT 85225000: ceab1aca
+CLIENT 85235000: 7897346c
+CLIENT 85245000: ba65643b
+CLIENT 85255000: cb7a6e0b
+CLIENT 85265000: 511921a8
+CLIENT 85275000: 9ef0ae24
+CLIENT 85285000: a1828362
+CLIENT 85295000: 3b0414f9
+CLIENT 85305000: 956e09e7
+CLIENT 85315000: b44fbc2c
+CLIENT 85325000: 6013edaf
+CLIENT 85335000: 7c114690
+CLIENT 85345000: 41d71f01
+CLIENT 85355000: 836c28ee
+CLIENT 85365000: f0901677
+CLIENT 85375000: a00db5ae
+CLIENT 85385000: a18512d7
+CLIENT 85395000: c615b279
+CLIENT 85405000: 78eb6d03
+CLIENT 85415000: 76164d0f
+CLIENT 85425000: 16de729f
+CLIENT 85435000: 73acadfd
+CLIENT 85445000: ef5bfabe
+CLIENT 85455000: 7f194389
+CLIENT 85465000: 8995c544
+CLIENT 85475000: 73499fdc
+CLIENT 85485000: ba5014de
+CLIENT 85495000: 90320c1d
+CLIENT 85505000: 83d6b1d6
+CLIENT 85515000: 59e794f2
+CLIENT 85525000: e8ab54c9
+CLIENT 85535000: 105bdaa7
+CLIENT 85545000: 216dfd54
+CLIENT 85555000: 738e9b32
+CLIENT 85565000: fd6a75d3
+CLIENT 85575000: fcb1dca0
+CLIENT 85585000: d182158b
+CLIENT 85595000: 75f20cf9
+CLIENT 85605000: c6ab02a1
+CLIENT 85615000: f09d69ac
+CLIENT 85625000: 500e87c5
+CLIENT 85635000: e489f9a1
+CLIENT 85645000: 601b24e6
+CLIENT 85655000: f9eca2aa
+CLIENT 85665000: 0f3ee3e8
+CLIENT 85675000: e80ff4fc
+CLIENT 85685000: c2fde831
+CLIENT 85695000: ca523be8
+CLIENT 85705000: 3fd9b67a
+CLIENT 85715000: dc296d14
+CLIENT 85725000: a17d3ca5
+CLIENT 85735000: f2c44adb
+CLIENT 85745000: 12ea39db
+CLIENT 85755000: 60fa900d
+CLIENT 85765000: c637d4f4
+CLIENT 85775000: 83f40ed0
+CLIENT 85785000: 17a394bc
+CLIENT 85795000: 3f16da5c
+CLIENT 85805000: 8b82c2c1
+CLIENT 85815000: 43d6dbe4
+CLIENT 85825000: 84b50705
+CLIENT 85835000: e17751bb
+CLIENT 85845000: a9ddb871
+CLIENT 85855000: 323c29a4
+CLIENT 85865000: 805c2900
+CLIENT 85875000: 6d5d863a
+CLIENT 85885000: 6bf66621
+CLIENT 85895000: b71f40a5
+CLIENT 85905000: 1653e8a0
+CLIENT 85915000: 94a20086
+CLIENT 85925000: 36e03784
+CLIENT 85935000: e119bfe3
+CLIENT 85945000: a2f2d32f
+CLIENT 85955000: f743b3b8
+CLIENT 85965000: 8d8e2484
+CLIENT 85975000: afb05e68
+CLIENT 85985000: 331563de
+CLIENT 85995000: a1e73087
+CLIENT 86005000: d8271c00
+CLIENT 86015000: a66fa7d2
+CLIENT 86025000: a17b159d
+CLIENT 86035000: 6dd57aac
+CLIENT 86045000: 0fc7a8a5
+CLIENT 86055000: d7b8b5e4
+CLIENT 86065000: c06fdc86
+CLIENT 86075000: e1a86b56
+CLIENT 86085000: 346381b8
+CLIENT 86095000: b13f2ad3
+CLIENT 86105000: 5e4d7dce
+CLIENT 86115000: f72a334c
+CLIENT 86125000: 91d003b0
+CLIENT 86135000: 5c3d1a74
+CLIENT 86145000: 25925296
+CLIENT 86155000: d28eff5d
+CLIENT 86165000: 11f9f1bb
+CLIENT 86175000: 170ce56b
+CLIENT 86185000: 7448e5b8
+CLIENT 86195000: e9b2d48a
+CLIENT 86205000: 95d1bb57
+CLIENT 86215000: e1a28234
+CLIENT 86225000: 66ec8c71
+CLIENT 86235000: f5812ccd
+CLIENT 86245000: b752d572
+CLIENT 86255000: e6857818
+CLIENT 86265000: 643d94b8
+CLIENT 86275000: 593c4131
+CLIENT 86285000: 36e0b7eb
+CLIENT 86295000: be908404
+CLIENT 86305000: 5be98952
+CLIENT 86315000: 8b9ea820
+CLIENT 86325000: a9619f15
+CLIENT 86335000: 146e88a9
+CLIENT 86345000: c9f46875
+CLIENT 86355000: 2f361f02
+CLIENT 86365000: 1c8a6802
+CLIENT 86375000: d2b03b8c
+CLIENT 86385000: 0e888640
+CLIENT 86395000: b4edb655
+CLIENT 86405000: d245373f
+CLIENT 86415000: 1cdc66c1
+CLIENT 86425000: 6fc743b7
+CLIENT 86435000: 3a52bee6
+CLIENT 86445000: 64c73c89
+CLIENT 86455000: c33564d1
+CLIENT 86465000: 2a255178
+CLIENT 86475000: baffe281
+CLIENT 86485000: 1a97180f
+CLIENT 86495000: d437ee3d
+CLIENT 86505000: 28b97c87
+CLIENT 86515000: 35526ee3
+CLIENT 86525000: 206b7a03
+CLIENT 86535000: 517d8957
+CLIENT 86545000: 340e5f8a
+CLIENT 86555000: d5b63a8e
+CLIENT 86565000: 60fc2db5
+CLIENT 86575000: 413b7f75
+CLIENT 86585000: 82c7fea4
+CLIENT 86595000: afee1d8f
+CLIENT 86605000: c8cc8745
+CLIENT 86615000: 7f64dfea
+CLIENT 86625000: 2f3b204d
+CLIENT 86635000: 49a605aa
+CLIENT 86645000: 0c3482b5
+CLIENT 86655000: 57cecab4
+CLIENT 86665000: be1107a3
+CLIENT 86675000: f0ac2f75
+CLIENT 86685000: 800a7d22
+CLIENT 86695000: 428412c4
+CLIENT 86705000: be44c5dd
+CLIENT 86715000: fe9c5b80
+CLIENT 86725000: 23b1e98f
+CLIENT 86735000: 67f9807c
+CLIENT 86745000: 8192cd87
+CLIENT 86755000: c170f2cc
+CLIENT 86765000: 0d67c0af
+CLIENT 90535000: 6725690a
+CLIENT 90545000: 2cb2246f
+CLIENT 90555000: 814c6f28
+CLIENT 90565000: ec4c22a4
+CLIENT 90575000: 259b6c50
+CLIENT 90585000: 020e487d
+CLIENT 90595000: 449fb4e3
+CLIENT 90605000: 7f23a3ca
+SERVER 158215000: 6725690a
+SERVER 158225000: 2cb2246f
+SERVER 158235000: 814c6f28
+SERVER 158245000: ec4c22a4
+SERVER 158255000: 259b6c50
+SERVER 158265000: 020e487d
+SERVER 158275000: 449fb4e3
+SERVER 158285000: 7f23a3ca
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 597.523 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 597.523 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Kyber512_check_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 200us
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:02:23 . Memory (MB): peak = 597.523 ; gain = 26.844
+# puts "SIM_FLOW_DONE"
+SIM_FLOW_DONE
+# exit
+INFO: xsimkernel Simulation Memory Usage: 24756 KB (Peak: 24756 KB), Simulation CPU Usage: 12656 ms
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 22 16:55:37 2026...

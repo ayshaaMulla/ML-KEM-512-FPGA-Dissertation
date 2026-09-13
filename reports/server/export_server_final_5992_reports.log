@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Sep 13 19:42:58 2026
+# Process ID         : 59232
+# Current directory  : C:/Users/aysha/Desktop/project/CRYSTALS-Kyber
+# Command line       : vivado.exe -mode batch -source C:\Users\aysha\Desktop\ML-KEM-512-FPGA-Dissertation\reports\server\export_server_final_5992_reports.tcl -nojournal -log C:\Users\aysha\Desktop\ML-KEM-512-FPGA-Dissertation\reports\server\export_server_final_5992_reports.log
+# Log file           : C:/Users/aysha/Desktop/ML-KEM-512-FPGA-Dissertation/reports/server/export_server_final_5992_reports.log
+# Journal file       : 
+# Running On         : Aysha
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 225H
+# CPU Frequency      : 3686 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 14
+# Host memory        : 16574 MB
+# Swap memory        : 33075 MB
+# Total Virtual      : 49649 MB
+# Available Virtual  : 2118 MB
+#-----------------------------------------------------------
+source {C:\Users\aysha\Desktop\ML-KEM-512-FPGA-Dissertation\reports\server\export_server_final_5992_reports.tcl}
+# set dcp {C:/Users/aysha/Desktop/ML-KEM-512-FPGA-Dissertation/final_checkpoints/Kyber_Server_final_5992LUT_168MHz.dcp}
+# set outdir {C:/Users/aysha/Desktop/ML-KEM-512-FPGA-Dissertation/reports/server}
+# open_checkpoint $dcp
+Command: open_checkpoint C:/Users/aysha/Desktop/ML-KEM-512-FPGA-Dissertation/final_checkpoints/Kyber_Server_final_5992LUT_168MHz.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 313.371 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7a12tcpg238-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.257 . Memory (MB): peak = 732.668 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 298 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 844.910 ; gain = 2.832
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Read placeStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.625 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.300 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1404.574 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1404.574 ; gain = 2.047
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1404.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2025.2 (64-bit) build 6299465
+open_checkpoint: Time (s): cpu = 00:00:34 ; elapsed = 00:00:48 . Memory (MB): peak = 1410.910 ; gain = 1103.805
+# report_utilization -file [file join $outdir Kyber_Server_final_5992_util.rpt]
+# report_timing_summary -file [file join $outdir Kyber_Server_final_5992_timing.rpt]
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1449.406 ; gain = 38.496
+# report_timing -max_paths 10 -sort_by group -file [file join $outdir Kyber_Server_final_5992_top10_timing.rpt]
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 10 -nworst 1 -delay_type max -sort_by group.
+# report_clocks -file [file join $outdir Kyber_Server_final_5992_clocks.rpt]
+# set paths [get_timing_paths -setup -max_paths 1]
+# if {[llength $paths] > 0} {
+#   puts "DCP_WNS [get_property SLACK [lindex $paths 0]]"
+# }
+DCP_WNS 0.009
+# puts "DCP_REPORTS_WRITTEN"
+DCP_REPORTS_WRITTEN
+# exit
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 13 19:44:07 2026...
